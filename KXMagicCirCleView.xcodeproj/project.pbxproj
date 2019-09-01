@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77CDEB89231B9751007E84E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEB88231B9751007E84E4 /* AppDelegate.m */; };
+		77CDEB8C231B9751007E84E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEB8B231B9751007E84E4 /* ViewController.m */; };
+		77CDEB8F231B9751007E84E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CDEB8D231B9751007E84E4 /* Main.storyboard */; };
+		77CDEB91231B9753007E84E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77CDEB90231B9753007E84E4 /* Assets.xcassets */; };
+		77CDEB94231B9753007E84E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CDEB92231B9753007E84E4 /* LaunchScreen.storyboard */; };
+		77CDEB97231B9753007E84E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEB96231B9753007E84E4 /* main.m */; };
+		77CDEB9F231B9772007E84E4 /* KXMagicCirCleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEB9E231B9772007E84E4 /* KXMagicCirCleView.m */; };
+		77CDEBAE231B99D6007E84E4 /* KXViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEBA1231B99D6007E84E4 /* KXViewMaker.m */; };
+		77CDEBAF231B99D6007E84E4 /* KXButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEBA2231B99D6007E84E4 /* KXButtonMaker.m */; };
+		77CDEBB0231B99D6007E84E4 /* KXScrollViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEBA4231B99D6007E84E4 /* KXScrollViewMaker.m */; };
+		77CDEBB1231B99D6007E84E4 /* KXTableViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEBAB231B99D6007E84E4 /* KXTableViewMaker.m */; };
+		77CDEBB2231B99D6007E84E4 /* KXImageViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEBAC231B99D6007E84E4 /* KXImageViewMaker.m */; };
+		77CDEBB3231B99D6007E84E4 /* KXLabelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEBAD231B99D6007E84E4 /* KXLabelMaker.m */; };
+		77CDEBB7231BB174007E84E4 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEBB6231BB174007E84E4 /* UIColor+Category.m */; };
+		77CDEBBA231BC922007E84E4 /* CAMagicLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEBB9231BC922007E84E4 /* CAMagicLineLayer.m */; };
+		77CDEBBC231BD17D007E84E4 /* page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77CDEBBB231BD17D007E84E4 /* page.jpg */; };
+		77CDEBC0231BD459007E84E4 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CDEBBE231BD459007E84E4 /* UIImage+Category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77CDEB84231B9751007E84E4 /* KXMagicCirCleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KXMagicCirCleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77CDEB87231B9751007E84E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77CDEB88231B9751007E84E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77CDEB8A231B9751007E84E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77CDEB8B231B9751007E84E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77CDEB8E231B9751007E84E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77CDEB90231B9753007E84E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77CDEB93231B9753007E84E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77CDEB95231B9753007E84E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77CDEB96231B9753007E84E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77CDEB9D231B9772007E84E4 /* KXMagicCirCleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXMagicCirCleView.h; sourceTree = "<group>"; };
+		77CDEB9E231B9772007E84E4 /* KXMagicCirCleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXMagicCirCleView.m; sourceTree = "<group>"; };
+		77CDEBA1231B99D6007E84E4 /* KXViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXViewMaker.m; sourceTree = "<group>"; };
+		77CDEBA2231B99D6007E84E4 /* KXButtonMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXButtonMaker.m; sourceTree = "<group>"; };
+		77CDEBA3231B99D6007E84E4 /* KXTableViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXTableViewMaker.h; sourceTree = "<group>"; };
+		77CDEBA4231B99D6007E84E4 /* KXScrollViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXScrollViewMaker.m; sourceTree = "<group>"; };
+		77CDEBA5231B99D6007E84E4 /* KXViewMakerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXViewMakerHeader.h; sourceTree = "<group>"; };
+		77CDEBA6231B99D6007E84E4 /* KXImageViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXImageViewMaker.h; sourceTree = "<group>"; };
+		77CDEBA7231B99D6007E84E4 /* KXLabelMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXLabelMaker.h; sourceTree = "<group>"; };
+		77CDEBA8231B99D6007E84E4 /* KXButtonMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXButtonMaker.h; sourceTree = "<group>"; };
+		77CDEBA9231B99D6007E84E4 /* KXViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXViewMaker.h; sourceTree = "<group>"; };
+		77CDEBAA231B99D6007E84E4 /* KXScrollViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXScrollViewMaker.h; sourceTree = "<group>"; };
+		77CDEBAB231B99D6007E84E4 /* KXTableViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXTableViewMaker.m; sourceTree = "<group>"; };
+		77CDEBAC231B99D6007E84E4 /* KXImageViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXImageViewMaker.m; sourceTree = "<group>"; };
+		77CDEBAD231B99D6007E84E4 /* KXLabelMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXLabelMaker.m; sourceTree = "<group>"; };
+		77CDEBB5231BB174007E84E4 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		77CDEBB6231BB174007E84E4 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		77CDEBB8231BC922007E84E4 /* CAMagicLineLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAMagicLineLayer.h; sourceTree = "<group>"; };
+		77CDEBB9231BC922007E84E4 /* CAMagicLineLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAMagicLineLayer.m; sourceTree = "<group>"; };
+		77CDEBBB231BD17D007E84E4 /* page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = page.jpg; sourceTree = "<group>"; };
+		77CDEBBE231BD459007E84E4 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		77CDEBBF231BD459007E84E4 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77CDEB81231B9751007E84E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77CDEB7B231B9751007E84E4 = {
+			isa = PBXGroup;
+			children = (
+				77CDEB86231B9751007E84E4 /* KXMagicCirCleView */,
+				77CDEB85231B9751007E84E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77CDEB85231B9751007E84E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77CDEB84231B9751007E84E4 /* KXMagicCirCleView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77CDEB86231B9751007E84E4 /* KXMagicCirCleView */ = {
+			isa = PBXGroup;
+			children = (
+				77CDEBBD231BD459007E84E4 /* UIImage */,
+				77CDEBBB231BD17D007E84E4 /* page.jpg */,
+				77CDEBB4231BB174007E84E4 /* UIColor */,
+				77CDEBA0231B99D6007E84E4 /* KXUIMarker */,
+				77CDEB87231B9751007E84E4 /* AppDelegate.h */,
+				77CDEB88231B9751007E84E4 /* AppDelegate.m */,
+				77CDEB8A231B9751007E84E4 /* ViewController.h */,
+				77CDEB8B231B9751007E84E4 /* ViewController.m */,
+				77CDEB8D231B9751007E84E4 /* Main.storyboard */,
+				77CDEB90231B9753007E84E4 /* Assets.xcassets */,
+				77CDEB92231B9753007E84E4 /* LaunchScreen.storyboard */,
+				77CDEB95231B9753007E84E4 /* Info.plist */,
+				77CDEB96231B9753007E84E4 /* main.m */,
+				77CDEB9D231B9772007E84E4 /* KXMagicCirCleView.h */,
+				77CDEB9E231B9772007E84E4 /* KXMagicCirCleView.m */,
+				77CDEBB8231BC922007E84E4 /* CAMagicLineLayer.h */,
+				77CDEBB9231BC922007E84E4 /* CAMagicLineLayer.m */,
+			);
+			path = KXMagicCirCleView;
+			sourceTree = "<group>";
+		};
+		77CDEBA0231B99D6007E84E4 /* KXUIMarker */ = {
+			isa = PBXGroup;
+			children = (
+				77CDEBA8231B99D6007E84E4 /* KXButtonMaker.h */,
+				77CDEBA2231B99D6007E84E4 /* KXButtonMaker.m */,
+				77CDEBA6231B99D6007E84E4 /* KXImageViewMaker.h */,
+				77CDEBAC231B99D6007E84E4 /* KXImageViewMaker.m */,
+				77CDEBA7231B99D6007E84E4 /* KXLabelMaker.h */,
+				77CDEBAD231B99D6007E84E4 /* KXLabelMaker.m */,
+				77CDEBAA231B99D6007E84E4 /* KXScrollViewMaker.h */,
+				77CDEBA4231B99D6007E84E4 /* KXScrollViewMaker.m */,
+				77CDEBA3231B99D6007E84E4 /* KXTableViewMaker.h */,
+				77CDEBAB231B99D6007E84E4 /* KXTableViewMaker.m */,
+				77CDEBA9231B99D6007E84E4 /* KXViewMaker.h */,
+				77CDEBA1231B99D6007E84E4 /* KXViewMaker.m */,
+				77CDEBA5231B99D6007E84E4 /* KXViewMakerHeader.h */,
+			);
+			path = KXUIMarker;
+			sourceTree = "<group>";
+		};
+		77CDEBB4231BB174007E84E4 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				77CDEBB5231BB174007E84E4 /* UIColor+Category.h */,
+				77CDEBB6231BB174007E84E4 /* UIColor+Category.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		77CDEBBD231BD459007E84E4 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				77CDEBBE231BD459007E84E4 /* UIImage+Category.m */,
+				77CDEBBF231BD459007E84E4 /* UIImage+Category.h */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77CDEB83231B9751007E84E4 /* KXMagicCirCleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77CDEB9A231B9753007E84E4 /* Build configuration list for PBXNativeTarget "KXMagicCirCleView" */;
+			buildPhases = (
+				77CDEB80231B9751007E84E4 /* Sources */,
+				77CDEB81231B9751007E84E4 /* Frameworks */,
+				77CDEB82231B9751007E84E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KXMagicCirCleView;
+			productName = KXMagicCirCleView;
+			productReference = 77CDEB84231B9751007E84E4 /* KXMagicCirCleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77CDEB7C231B9751007E84E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = com.aidoutu.kit;
+				TargetAttributes = {
+					77CDEB83231B9751007E84E4 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 77CDEB7F231B9751007E84E4 /* Build configuration list for PBXProject "KXMagicCirCleView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77CDEB7B231B9751007E84E4;
+			productRefGroup = 77CDEB85231B9751007E84E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77CDEB83231B9751007E84E4 /* KXMagicCirCleView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77CDEB82231B9751007E84E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CDEBBC231BD17D007E84E4 /* page.jpg in Resources */,
+				77CDEB94231B9753007E84E4 /* LaunchScreen.storyboard in Resources */,
+				77CDEB91231B9753007E84E4 /* Assets.xcassets in Resources */,
+				77CDEB8F231B9751007E84E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77CDEB80231B9751007E84E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CDEB8C231B9751007E84E4 /* ViewController.m in Sources */,
+				77CDEBAF231B99D6007E84E4 /* KXButtonMaker.m in Sources */,
+				77CDEBB0231B99D6007E84E4 /* KXScrollViewMaker.m in Sources */,
+				77CDEBBA231BC922007E84E4 /* CAMagicLineLayer.m in Sources */,
+				77CDEBB1231B99D6007E84E4 /* KXTableViewMaker.m in Sources */,
+				77CDEBB3231B99D6007E84E4 /* KXLabelMaker.m in Sources */,
+				77CDEB97231B9753007E84E4 /* main.m in Sources */,
+				77CDEBB2231B99D6007E84E4 /* KXImageViewMaker.m in Sources */,
+				77CDEB89231B9751007E84E4 /* AppDelegate.m in Sources */,
+				77CDEBAE231B99D6007E84E4 /* KXViewMaker.m in Sources */,
+				77CDEB9F231B9772007E84E4 /* KXMagicCirCleView.m in Sources */,
+				77CDEBB7231BB174007E84E4 /* UIColor+Category.m in Sources */,
+				77CDEBC0231BD459007E84E4 /* UIImage+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77CDEB8D231B9751007E84E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77CDEB8E231B9751007E84E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77CDEB92231B9753007E84E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77CDEB93231B9753007E84E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77CDEB98231B9753007E84E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77CDEB99231B9753007E84E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77CDEB9B231B9753007E84E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5FHUB3BZ8;
+				INFOPLIST_FILE = KXMagicCirCleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aidoutu.com.KXMagicCirCleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77CDEB9C231B9753007E84E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5FHUB3BZ8;
+				INFOPLIST_FILE = KXMagicCirCleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aidoutu.com.KXMagicCirCleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77CDEB7F231B9751007E84E4 /* Build configuration list for PBXProject "KXMagicCirCleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77CDEB98231B9753007E84E4 /* Debug */,
+				77CDEB99231B9753007E84E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77CDEB9A231B9753007E84E4 /* Build configuration list for PBXNativeTarget "KXMagicCirCleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77CDEB9B231B9753007E84E4 /* Debug */,
+				77CDEB9C231B9753007E84E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77CDEB7C231B9751007E84E4 /* Project object */;
+}
